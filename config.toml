@@ -1,0 +1,43 @@
+baseurl = "https://davidbernad.com/"
+title = "David Bernad Website"
+theme = "hugo-theme-nix"
+DefaultContentLanguage = "en"
+
+[params]
+  GithubID = "nazhor"
+  ItchioID= "nazhor"
+  LinkedInID = "david-bernad-sanz-4877549a/"
+  Name = "David Bernad"
+  HeaderUsername = "dbernad"
+  HeaderHostname = "nazhor"
+  Email = "contact@davidbernad.com"
+  ProfilePicture = "/images/amaze.jpg"
+  Favicon = "/images/favicon.ico"
+
+[languages]
+  [languages.en]
+    [languages.en.params]
+      languageName = "EN"
+      About = "Hi! I'm David, software and game developer. Nice to meet you!"
+    [languages.en.menu]
+      [[languages.en.menu.header]]
+        name = "projects"
+        weight = 1
+        url = "/projects"
+      [[languages.en.menu.header]]
+        name = "about"
+        weight = 0
+        url = "/about"
+  [languages.es]
+    [languages.es.params]
+      languageName = "ES"
+      About = "¡Hola! Mi nombre es David, desarrollador de software y videojuegos. ¡Encantado!"
+    [languages.es.menu]
+      [[languages.es.menu.header]]
+        name = "proyectos"
+        weight = 1
+        url = "/projects"
+      [[languages.es.menu.header]]
+        name = "sobre_mí"
+        weight = 0
+        url = "/about"
