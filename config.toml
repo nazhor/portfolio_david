@@ -18,26 +18,26 @@ DefaultContentLanguage = "en"
   [languages.en]
     [languages.en.params]
       languageName = "EN"
-      About = "Hi! I'm David, software and game developer. Nice to meet you!"
-    [languages.en.menu]
-      [[languages.en.menu.header]]
-        name = "projects"
-        weight = 1
-        url = "/projects"
-      [[languages.en.menu.header]]
-        name = "about"
-        weight = 0
-        url = "/about"
+      About = "Welcome! I'm David, software and game developer. Please, come in, take a look and if you find something you like, don't hesitate to contact me."
+    # [languages.en.menu]
+    #   [[languages.en.menu.header]]
+    #     name = "projects"
+    #     weight = 1
+    #     url = "/projects"
+    #   [[languages.en.menu.header]]
+    #     name = "about"
+    #     weight = 0
+    #     url = "/about"
   [languages.es]
     [languages.es.params]
       languageName = "ES"
-      About = "¡Hola! Mi nombre es David, desarrollador de software y videojuegos. ¡Encantado!"
-    [languages.es.menu]
-      [[languages.es.menu.header]]
-        name = "proyectos"
-        weight = 1
-        url = "/projects"
-      [[languages.es.menu.header]]
-        name = "sobre_mí"
-        weight = 0
-        url = "/about"
+      About = "¡Bienvenido! Mi nombre es David, desarrollador de software y videojuegos. Por favor, pasa, echa un vistazo y si ves algo que te gusta, no dudes en contactarme."
+    # [languages.es.menu]
+    #   [[languages.es.menu.header]]
+    #     name = "proyectos"
+    #     weight = 1
+    #     url = "/projects"
+    #   [[languages.es.menu.header]]
+    #     name = "sobre_mí"
+    #     weight = 0
+    #     url = "/about"
