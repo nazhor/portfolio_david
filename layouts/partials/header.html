@@ -1,0 +1,7 @@
+<header>
+	{{ if .IsTranslated }}
+		{{ range .Translations }}
+			<a href="{{ .Permalink }}" class="pure-button lang-button">{{ .Site.Params.languageName }}</a>
+		{{ end}}
+	{{ end }}
+</header>
