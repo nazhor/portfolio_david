@@ -2,18 +2,42 @@ body {
     background-color: black;
 }
 
+.header-container {
+    position: relative;
+    z-index: 0;
+}
+
 .lang-button {
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
     background: black;
     color: white;
-    margin: 10px;
+    margin: 0.5rem;
     border-style: solid;
     border-radius: 1px;
     border-color: white;
+    z-index: 10;
 }
 
 .lang-button:hover {
     background: red;
+}
+
+.triangle-top-left {
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom right, #830024 50%, transparent 50.5%) no-repeat bottom;
+}
+
+.triangle-top-left:hover {
+    background: linear-gradient(to bottom right, #09eb2f 50%, transparent 50.5%) no-repeat bottom;
+}
+
+.menu {
+    color: white;
+    padding: 0.2rem;
+    font-size: 3.5rem;
 }
 
 /* * {
