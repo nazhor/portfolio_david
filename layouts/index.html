@@ -5,6 +5,7 @@
     </head>
     <body>
         {{ partial "header.html" . }}
+        {{ partial "about.html" . }}
         <!-- <div class="container wrapper">
             {{ with .Site.Params.ProfilePicture }}
             <div class="row">
@@ -20,7 +21,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12">
-                {{ partial "social.html" . }}
+                {{ partial "social.html" }}
                 </div>
             </div>
             <div class="row">
@@ -29,7 +30,10 @@
                 </div>
             </div>
             <div class="push"></div>
-        </div>
-        {{ partial "footer.html" . }} -->
+        </div>-->
+        {{ partial "footer.html" . }}
     </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/anime.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/nazhor.js"></script>
 </html>

@@ -1,9 +1,9 @@
 <header>
-	<div class="header-container triangle-top-left">
-		<div class="menu">PROJECTS</div>
+	<div id="header-container">
+		<a class="pure-button" id="page-button">PROJECTS</a>
 		{{ if .IsTranslated }}
 			{{ range .Translations }}
-				<a href="{{ .Permalink }}" class="pure-button lang-button">{{ .Site.Params.languageName }}</a>
+				<a href="{{ .Permalink }}" class="pure-button" id="lang-button">{{ .Site.Params.languageName }}</a>
 			{{ end}}
 		{{ end }}
 	</div>

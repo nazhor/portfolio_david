@@ -1,44 +1,142 @@
+:root {
+    --main-bg-color: #000000;
+    --main-txt-color: #ffffff;
+    --main-bg-sel-color: #ff0000;
+    --borders-width: 0.1rem;
+    --borders-radius: 0.2rem;
+}
+
+html {
+    height: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Share Tech Mono', monospace;
+    color: var(--main-txt-color);
+}
+
 body {
-    background-color: black;
+    height: 100%;
+    background-color: var(--main-bg-color);
+    /* background: url("/images/background.jpg"); */
+    /* font-family: 'Share Tech Mono', monospace; */
 }
 
-.header-container {
+footer {
+    color: var(--main-txt-color);
+}
+
+#header-container {
     position: relative;
-    z-index: 0;
+    /* background: linear-gradient(to bottom right, #ffffff 100%, transparent 10%) no-repeat bottom; */
 }
 
-.lang-button {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: black;
-    color: white;
-    margin: 0.5rem;
+#page-button,
+#lang-button {
+    background: var(--main-bg-color);;
+    color: var(--main-txt-color);
+    margin: 0.3rem;
     border-style: solid;
-    border-radius: 1px;
-    border-color: white;
-    z-index: 10;
+    border-width: var(--borders-width);
+    border-radius: var(--borders-radius);
+    border-color: var(--main-txt-color);
 }
 
-.lang-button:hover {
-    background: red;
+#page-button {
+    font-size: 1.2rem;
 }
 
-.triangle-top-left {
+#lang-button {
+    float: right;
+    font-size: 0.8rem;
+}
+
+#page-button:hover,
+#lang-button:hover {
+    background: var(--main-bg-sel-color);
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+.pure-img {
+    margin: 1.5rem auto;
+}
+
+.fotoyo {
+    border-style: solid;
+    border-width: var(--borders-width);
+    /* border-radius: var(--borders-radius); */
+    border-radius: 50%;
+    border-color: var(--main-txt-color);
+}
+
+#about {
+    min-height: calc(90vh - 1.5rem);
+}
+
+#description {
+    text-align: justify;
+    margin: 0;
+    padding: 0.75rem;
+    border-style: solid;
+    border-width: var(--borders-width);
+    border-radius: var(--borders-radius);
+    border-color: var(--main-txt-color);
+}
+
+.fab,
+.fas {
+    color: var(--main-txt-color);
+    padding: 0.4rem 0.1rem;
+}
+
+.fab:hover,
+.fas:hover {
+    color: var(--main-bg-sel-color);
+}
+
+@media screen and (min-width: 64em) {
+    #page-button,
+    #lang-button {
+        margin: 0.5rem;
+    }
+
+    #page-button {
+        font-size: 1.4rem;
+    }
+
+    #lang-button {
+        font-size: 1rem;
+    }
+
+    .pure-img {
+        margin: 2rem auto;
+    }
+
+    #description {
+        margin: auto 2rem;
+    }
+}
+
+/* .triangle-top-left {
     width: 100%;
     height: 50px;
     background: linear-gradient(to bottom right, #830024 50%, transparent 50.5%) no-repeat bottom;
-}
+} */
 
-.triangle-top-left:hover {
+/* .triangle-top-left:hover {
     background: linear-gradient(to bottom right, #09eb2f 50%, transparent 50.5%) no-repeat bottom;
-}
+}   */
 
-.menu {
-    color: white;
-    padding: 0.2rem;
-    font-size: 3.5rem;
-}
+
 
 /* * {
     margin: 0;
