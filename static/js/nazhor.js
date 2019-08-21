@@ -3,7 +3,7 @@ $(document).ready(function(){
     var currentPage = 0;
     var navToPage = 0;
     var isPlaying = false;
-    var animDuration = 750;
+    var animDuration = 1000;
     var direction = {
         Right: 0,
         Left: 1
@@ -21,31 +21,27 @@ $(document).ready(function(){
         navigate(direction.Right);
     });
 
-    //Touch gesture via hammer.js
-    var letTheHammerPan = new Hammer(document);
-    letTheHammerPan.get("pan").set({
-        direction: Hammer.DIRECTION_HORIZONTAL,
-        threshold: 1000
-    });
-    letTheHammerPan.on('panright panleft', function(e) {
-        // touchAction: "auto";
-        // e.preventDefault();
-        if (e.type == "panright") {
-            navigate(direction.Right);
-        } else {
-            navigate(direction.Left);
-        }
+    var containerElement = document.getElementById('page-container');
+    var activeRegion = ZingTouch.Region(containerElement);
+
+    var childElement = document.getElementById('about');
+
+    // new ZingTouch.Pan({
+    //     numInputs: 2
+    // })
+
+    activeRegion.bind(childElement, 'pan', function(event){
+        navigate(direction.Right);
     });
 
-    // var letTheHammer = new Hammer(document);
-    // letTheHammer.get("swipe").set({
+    //Touch gesture via hammer.js
+    // var letTheHammerPan = new Hammer(document);
+    // letTheHammerPan.get("pan").set({
     //     direction: Hammer.DIRECTION_HORIZONTAL,
-    //     threshold: 1
+    //     threshold: 1000
     // });
-    // letTheHammer.on('swiperight swipeleft', function(e) {
-    //     touchAction: "auto";
-    //     e.preventDefault();
-    //     if (e.type == "swiperight") {
+    // letTheHammerPan.on('panright panleft', function(e) {
+    //     if (e.type == "panright") {
     //         navigate(direction.Right);
     //     } else {
     //         navigate(direction.Left);
