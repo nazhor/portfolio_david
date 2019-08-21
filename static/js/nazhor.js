@@ -21,19 +21,6 @@ $(document).ready(function(){
         navigate(direction.Right);
     });
 
-    var containerElement = document.getElementById('page-container');
-    var activeRegion = ZingTouch.Region(containerElement);
-
-    var childElement = document.getElementById('about');
-
-    // new ZingTouch.Pan({
-    //     numInputs: 2
-    // })
-
-    activeRegion.bind(childElement, 'pan', function(event){
-        navigate(direction.Right);
-    });
-
     //Touch gesture via hammer.js
     // var letTheHammerPan = new Hammer(document);
     // letTheHammerPan.get("pan").set({
@@ -49,13 +36,13 @@ $(document).ready(function(){
     // });
 
     //TODO solo cambio los botones si pulso, falta cambiar al swipe y mejorar el efecto, hace cosas raras
-    function navRight(){
-        //TODO
-    };
+    // function navRight(){
+    //     TODO
+    // };
 
-    function navLeft(){
-        //TODO
-    };
+    // function navLeft(){
+    //     TODO
+    // };
 
     function navigate( currentDire ) {
 
