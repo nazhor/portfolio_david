@@ -1,20 +1,20 @@
 {{ with .Site.Params.GithubID }}
 <a href="https://github.com/{{.}}" rel="me" title="GitHub"><i class="fab fa-github fa-3x" aria-hidden="true"></i></a>
 {{ end }}
+{{ with .Site.Params.ItchioID }}
+<a href="https://{{.}}.itch.io/" rel="me" title="Itch.IO"><i class="fab fa-itch-io fa-3x" aria-hidden="true"></i></a>
+{{ end }}
 {{ with .Site.Params.GitlabId }}
 <a href="https://gitlab.com/{{.}}" rel="me" title="GitLab"><i class="fab fa-gitlab fa-3x" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .Site.Params.BitbucketID }}
 <a href="https://bitbucket.org/{{.}}" rel="me" title="Bitbucket"><i class="fab fa-bitbucket fa-3x" aria-hidden="true"></i></a>
 {{ end }}
-{{ with .Site.Params.CodepenID }}
-<a href="https://codepen.io/{{.}}" rel="me" title="Codepen"><i class="fab fa-codepen fa-3x" aria-hidden="true"></i></a>
-{{ end }}
 {{ with .Site.Params.LinkedInID }}
 <a href="https://linkedin.com/in/{{.}}" rel="me" title="LinkedIn"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></a>
 {{ end }}
-{{ with .Site.Params.ItchioID }}
-<a href="https://{{.}}.itch.io/" rel="me" title="Itch.IO"><i class="fab fa-itch-io fa-3x" aria-hidden="true"></i></a>
+{{ with .Site.Params.CodepenID }}
+<a href="https://codepen.io/{{.}}" rel="me" title="Codepen"><i class="fab fa-codepen fa-3x" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .Site.Params.StackOverflowID }}
 <a href="https://stackoverflow.com/users/{{.}}" rel="me" title="StackExchange"><i class="fab fa-stack-overflow fa-3x" aria-hidden="true"></i></a>

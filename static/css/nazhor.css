@@ -32,13 +32,18 @@ footer {
 }
 
 #header-container {
-    position: relative;
+    background: var(--main-bg-color);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
     /* background: linear-gradient(to bottom right, #ffffff 100%, transparent 10%) no-repeat bottom; */
 }
 
 #page-button,
 #lang-button {
-    background: var(--main-bg-color);;
+    background: var(--main-bg-color);
     color: var(--main-txt-color);
     margin: 0.3rem;
     border-style: solid;
@@ -49,6 +54,7 @@ footer {
 
 #page-button {
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 #lang-button {
@@ -67,19 +73,59 @@ footer {
 }
 
 .pure-img {
-    margin: 1.5rem auto;
+    margin: 4rem auto 1rem;
 }
 
 .fotoyo {
     border-style: solid;
     border-width: var(--borders-width);
-    /* border-radius: var(--borders-radius); */
     border-radius: 50%;
     border-color: var(--main-txt-color);
 }
 
+.page-container {
+    height: 100%;
+    position: relative;
+}
+
 #about {
-    min-height: calc(90vh - 1.5rem);
+    position: absolute;
+    top: 0;
+    /* min-height: calc(97vh - 1.5rem); */
+    /*float: left; */
+}
+
+#projects {
+    position: absolute;
+    top: 0;
+    display: none;
+
+    height: 100%;
+    width: 100%;
+
+    /* min-height: calc(90vh - 1.5rem);
+    width: 40%;
+    background: blue; */
+}
+
+#p1 {
+    height: 400px;
+    background: green;
+}
+
+#p2 {
+    height: 400px;
+    background: pink;
+}
+
+#p3 {
+    height: 400px;
+    background: red;
+}
+
+#p4 {
+    height: 400px;
+    background: yellow;
 }
 
 #description {
@@ -95,7 +141,7 @@ footer {
 .fab,
 .fas {
     color: var(--main-txt-color);
-    padding: 0.4rem 0.1rem;
+    padding: 0.75rem 0.1rem;
 }
 
 .fab:hover,
@@ -118,7 +164,7 @@ footer {
     }
 
     .pure-img {
-        margin: 2rem auto;
+        margin: 4.2rem auto 2rem;
     }
 
     #description {

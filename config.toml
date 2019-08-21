@@ -10,13 +10,12 @@ googleAnalytics = "UA-XXXXXXXX-Y"
 
     # Social
     GithubID = "nazhor"
+    CodepenID = "nazhor"
     ItchioID= "nazhor"
     LinkedInID = "david-bernad-sanz-4877549a/"
-    Name = "David Bernad"
-    HeaderUsername = "dbernad"
-    HeaderHostname = "nazhor"
     Email = "contact@davidbernad.com"
-    ProfilePicture = "/images/amaze.jpg"
+
+    ProfilePicture = "/images/photo.jpg"
 
 [languages]
     [languages.en]
