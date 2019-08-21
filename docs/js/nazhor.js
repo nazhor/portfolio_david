@@ -9,8 +9,15 @@ $(document).ready(function(){
         Left: 1
     };
 
-    $("#page-button").click(function(){
-        // alert("Hello! I am an alert box!!");
+    $("#about-button").click(function(){
+        $("#about-button").hide();
+        $("#projects-button").css('display', 'inline-block');
+        navigate(direction.Right);
+    });
+
+    $("#projects-button").click(function(){
+        $("#about-button").css('display', 'inline-block');
+        $("#projects-button").hide();
         navigate(direction.Right);
     });
 

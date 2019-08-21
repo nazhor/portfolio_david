@@ -24,7 +24,8 @@ publishdir = "docs"
         [languages.en.params]
             languageName = "EN"
             About = "Cupcake ipsum dolor sit amet candy pastry lemon drops. Muffin sweet bonbon candy canes gingerbread. Sugar plum cupcake marshmallow. Macaroon dessert cake marzipan powder pastry danish sweet. Powder gingerbread tart candy marshmallow caramels gummies candy canes. Donut chocolate bar soufflé croissant. Sesame snaps croissant gummies oat cake croissant cotton candy liquorice halvah. Sugar plum wafer gummies apple pie macaroon.           Candy canes cookie caramels chocolate toffee gummies muffin oat cake donut. Cake cheesecake candy macaroon gummies gingerbread. Fruitcake cotton candy macaroon gummi bears gummies. Cotton candy cotton candy gummies. Marzipan pastry powder liquorice muffin. Cake liquorice lemon drops chupa chups croissant. Liquorice pastry dragée marshmallow."
-
+            AboutButton = "Home"
+            ProjectsButton = "Projects"
             # About = "Welcome! I'm David, software and game developer. Please, come in, take a look and if you find something you like, don't hesitate to contact me."
             # [languages.en.menu]
             #   [[languages.en.menu.header]]
@@ -39,6 +40,8 @@ publishdir = "docs"
         [languages.es.params]
             languageName = "ES"
             About = "ES Cupcake ipsum dolor sit amet candy pastry lemon drops. Muffin sweet bonbon candy canes gingerbread. Sugar plum cupcake marshmallow. Macaroon dessert cake marzipan powder pastry danish sweet. Powder gingerbread tart candy marshmallow caramels gummies candy canes. Donut chocolate bar soufflé croissant. Sesame snaps croissant gummies oat cake croissant cotton candy liquorice halvah. Sugar plum wafer gummies apple pie macaroon.           Candy canes cookie caramels chocolate toffee gummies muffin oat cake donut. Cake cheesecake candy macaroon gummies gingerbread. Fruitcake cotton candy macaroon gummi bears gummies. Cotton candy cotton candy gummies. Marzipan pastry powder liquorice muffin. Cake liquorice lemon drops chupa chups croissant. Liquorice pastry dragée marshmallow. ES fin"
+            AboutButton = "Home"
+            ProjectsButton = "Proyectos"
             # About = "¡Bienvenido! Mi nombre es David, desarrollador de software y videojuegos. Por favor, pasa, echa un vistazo y si ves algo que te gusta, no dudes en contactarme."
             # [languages.es.menu]
             #   [[languages.es.menu.header]]
