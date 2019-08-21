@@ -21,6 +21,8 @@ textarea,
 }
 
 body {
+    overflow-x: hidden;
+    margin: 0px;
     height: 100%;
     background-color: var(--main-bg-color);
     /* background: url("/images/background.jpg"); */

@@ -11,15 +11,55 @@ $(document).ready(function(){
 
     $("#about-button").click(function(){
         $("#about-button").hide();
-        $("#projects-button").css('display', 'inline-block');
+        $("#projects-button").css("display", "inline-block");
         navigate(direction.Right);
     });
 
     $("#projects-button").click(function(){
-        $("#about-button").css('display', 'inline-block');
+        $("#about-button").css("display", "inline-block");
         $("#projects-button").hide();
         navigate(direction.Right);
     });
+
+    //Touch gesture via hammer.js
+    var letTheHammerPan = new Hammer(document);
+    letTheHammerPan.get("pan").set({
+        direction: Hammer.DIRECTION_HORIZONTAL,
+        threshold: 1000
+    });
+    letTheHammerPan.on('panright panleft', function(e) {
+        // touchAction: "auto";
+        // e.preventDefault();
+        if (e.type == "panright") {
+            navigate(direction.Right);
+        } else {
+            navigate(direction.Left);
+        }
+    });
+
+    // var letTheHammer = new Hammer(document);
+    // letTheHammer.get("swipe").set({
+    //     direction: Hammer.DIRECTION_HORIZONTAL,
+    //     threshold: 1
+    // });
+    // letTheHammer.on('swiperight swipeleft', function(e) {
+    //     touchAction: "auto";
+    //     e.preventDefault();
+    //     if (e.type == "swiperight") {
+    //         navigate(direction.Right);
+    //     } else {
+    //         navigate(direction.Left);
+    //     }
+    // });
+
+    //TODO solo cambio los botones si pulso, falta cambiar al swipe y mejorar el efecto, hace cosas raras
+    function navRight(){
+        //TODO
+    };
+
+    function navLeft(){
+        //TODO
+    };
 
     function navigate( currentDire ) {
 
@@ -69,16 +109,5 @@ $(document).ready(function(){
             };
         }
     };
-
-    //Touch gesture via hammer.js
-    var let_the_hammer = new Hammer(document);
-    let_the_hammer.on('panright panleft', function(e) {
-        e.preventDefault();
-        if (e.type == 'panright') {
-            navigate(direction.Right);
-        } else {
-            navigate(direction.Left);
-        }
-    });
 
 });
