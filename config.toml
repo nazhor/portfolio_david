@@ -3,6 +3,8 @@ title = "David Bernad Website"
 DefaultContentLanguage = "en"
 googleAnalytics = "UA-XXXXXXXX-Y"
 
+publishdir = "docs"
+
 [params]
     # Meta
     description = "David portfolio"
