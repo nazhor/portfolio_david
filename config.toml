@@ -1,6 +1,6 @@
-# baseurl = "https://davidbernad.com/"
+baseurl = "https://davidbernad.com/"
 #For testing
-baseurl = "https://davidbernad.com/portfolio_david/"
+# baseurl = "https://davidbernad.com/portfolio_david/"
 title = "David Bernad Website"
 DefaultContentLanguage = "en"
 googleAnalytics = "UA-XXXXXXXX-Y"
@@ -19,7 +19,9 @@ publishdir = "docs"
     LinkedInID = "david-bernad-sanz-4877549a/"
     Email = "contact@davidbernad.com"
 
-    ProfilePicture = "images/photo.jpg"
+    ProfilePicture = "/images/photo.jpg"
+    #For testing
+    # ProfilePicture = "images/photo.jpg"
 
 [languages]
     [languages.en]
