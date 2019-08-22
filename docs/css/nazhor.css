@@ -38,7 +38,7 @@ footer {
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100vw;
     z-index: 1;
     /* background: linear-gradient(to bottom right, #ffffff 100%, transparent 10%) no-repeat bottom; */
 }
@@ -159,17 +159,21 @@ footer {
 }
 
 @media screen and (min-width: 64em) {
-    #page-button,
+    #about-button,
+    #projects-button,
     #lang-button {
         margin: 0.5rem;
     }
 
-    #page-button {
+    #about-button,
+    #projects-button {
         font-size: 1.4rem;
+        margin-left: 1.5rem;
     }
 
     #lang-button {
         font-size: 1rem;
+        margin-right: 1.5rem;
     }
 
     .pure-img {
