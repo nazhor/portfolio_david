@@ -1,0 +1,9 @@
+pname = "The Fall of Lazarus"
+ptext = "Cupcake ipsum dolor sit amet candy pastry lemon drops. Muffin sweet bonbon candy canes gingerbread. Sugar plum cupcake marshmallow. Macaroon dessert cake marzipan powder pastry danish sweet. Powder gingerbread tart candy marshmallow caramels gummies candy canes. Donut chocolate bar soufflé croissant. Sesame snaps croissant gummies oat cake croissant cotton candy liquorice halvah. Sugar plum wafer gummies apple pie macaroon.           Candy canes cookie caramels chocolate toffee gummies muffin oat cake donut. Cake cheesecake candy macaroon gummies gingerbread. Fruitcake cotton candy macaroon gummi bears gummies. Cotton candy cotton candy gummies. Marzipan pastry powder liquorice muffin. Cake liquorice lemon drops chupa chups croissant. Liquorice pastry dragée marshmallow."
+pcolor = "p-white"
+pimg = "/images/games/game1_1.jpg"
+pslides = [
+    "/images/games/game1_1.jpg",
+    "/images/games/game1_2.jpg",
+    "/images/games/game1_3.jpg"
+]

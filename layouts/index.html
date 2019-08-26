@@ -7,7 +7,11 @@
         {{ partial "header.html" . }}
         <div class="page-container">
             {{ partial "about.html" . }}
-            {{ partial "projects.html" . }}
+            <div id="projects">
+                {{ range $.Site.Data.projects }}
+                    {{ partial "project.html" . }}
+                {{ end }}
+            </div>
         </div>
         <!-- <div class="container wrapper">
             {{ with .Site.Params.ProfilePicture }}

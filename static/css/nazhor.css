@@ -17,7 +17,6 @@ select,
 textarea,
 .pure-g [class *= "pure-u"] {
     font-family: 'Share Tech Mono', monospace;
-    color: var(--main-txt-color);
 }
 
 body {
@@ -25,6 +24,7 @@ body {
     margin: 0px;
     height: 100%;
     background-color: var(--main-bg-color);
+    color: var(--main-txt-color);
     /* background: url("/images/background.jpg"); */
     /* font-family: 'Share Tech Mono', monospace; */
 }
@@ -35,6 +35,7 @@ footer {
 
 #header-container {
     background: var(--main-bg-color);
+    /* background: red; */
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -81,11 +82,13 @@ footer {
     text-align: center;
 }
 
-.pure-img {
-    margin: 4rem auto 1rem;
+.vertical-center {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .fotoyo {
+    margin: 0.75rem auto;
     border-style: solid;
     border-width: var(--borders-width);
     border-radius: 50%;
@@ -93,6 +96,7 @@ footer {
 }
 
 .page-container {
+    margin-top: 3.5rem;
     height: 100%;
     position: relative;
 }
@@ -118,23 +122,9 @@ footer {
 }
 
 #p1 {
-    height: 400px;
+    /* height: 400px; */
+    width: 100%;
     background: green;
-}
-
-#p2 {
-    height: 400px;
-    background: pink;
-}
-
-#p3 {
-    height: 400px;
-    background: red;
-}
-
-#p4 {
-    height: 400px;
-    background: yellow;
 }
 
 #description {
@@ -158,6 +148,73 @@ footer {
     color: var(--main-bg-sel-color);
 }
 
+.project-left,
+.project-right {
+    margin: auto 1.5rem;
+}
+
+.project-right {
+    position: relative;
+}
+
+.project-left p {
+    text-align: justify;
+}
+
+.project-left h1 {
+    font-size: 1rem;
+}
+
+.nz-slides {
+    display: none;
+    /* border-style: solid;
+    border-width: var(--borders-width);
+    border-color: var(--main-txt-color); */
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: var(--main-bg-color);
+    background-color: var(--main-txt-color);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+ }
+
+.prev:hover,
+.next:hover {
+    color: var(--main-txt-color);
+    background-color: var(--main-bg-sel-color);
+}
+
+
+.p-white {
+    background: #ffffff;
+    color: #000000 !important;
+}
+
+.p-black {
+    background: #000000;
+    color: #ffffff !important;
+}
+
+.separator {
+    height: 40px;
+    background: linear-gradient(to bottom left, #ffffff 50%, transparent 40%) no-repeat bottom;
+}
+
 @media screen and (min-width: 64em) {
     #about-button,
     #projects-button,
@@ -176,12 +233,34 @@ footer {
         margin-right: 1.5rem;
     }
 
-    .pure-img {
-        margin: 4.2rem auto 2rem;
+    .page-container {
+        margin-top: 4.5rem;
+    }
+
+    .fotoyo {
+        margin: 0.75rem auto;
     }
 
     #description {
         margin: auto 2rem;
+    }
+
+    .project-left {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 3rem;
+        margin-right: 1.5rem;
+    }
+
+    .project-left h1 {
+        font-size: 1rem;
+    }
+
+    .project-right {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        margin-left: 1.5rem;
+        margin-right: 3rem;
     }
 }
 

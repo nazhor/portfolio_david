@@ -1,0 +1,21 @@
+<div class="pure-g {{ .pcolor }}">
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vertical-center">
+        <div class="project-left">
+            <h2>{{ .pname }}</h2>
+            <p>{{ .ptext }}</p>
+        </div>
+    </div>
+    <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vertical-center">
+        <div class="project-right">
+                <img src="{{ .pimg }}" style="width:100%">
+            <!-- {{ range .pslides }}
+                <div class="nz-slides fade">
+                    <img src="{{ . }}" style="width:100%">
+                </div>
+            {{ end }}
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+        </div>
+    </div>
+</div>
+<!-- <div class="separator"></div> -->
