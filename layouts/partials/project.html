@@ -7,13 +7,18 @@
     </div>
     <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-2 vertical-center">
         <div class="project-right">
-                <img src="{{ .pimg }}" style="width:100%">
+            <!-- <img src="{{ .pimg }}" style="width:100%"> -->
             <!-- {{ range .pslides }}
                 <div class="nz-slides fade">
                     <img src="{{ . }}" style="width:100%">
                 </div>
-            {{ end }}
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            {{ end }} -->
+            <div class="p-slides">
+                <img class="p-slide" src="{{ .pimg }}" data-index="0" data-imgs='[{"url":"/images/games/game1_1.jpg"},{"url":"/images/games/game1_2.jpg"},{"url":"/images/games/game1_3.jpg"}]'>
+                <a class="nav-right">&#x2BC8;</a>
+                <a class="nav-left">&#x2BC7;</a>
+            </div>
+            <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
         </div>
     </div>

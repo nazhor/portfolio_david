@@ -92,28 +92,64 @@ $(document).ready(function(){
             };
         }
     };
+
+    $(".p-slides").on("click", ".nav-right", function(){
+        var slide_img = $(this).parent().children("img");
+        var aux_src = slide_img.attr("src");
+        var aux_index = slide_img.attr("data-index");
+        var aux_imgs = slide_img.attr("data-imgs");
+        var data = JSON.parse(aux_imgs);
+        var current_img = data[2].url;
+
+        slide_img.attr("src", data[2].url);
+
+        // alert("right: " + aux_src + " : " + aux_index + " : " + current_img);
+        console.log("aux_src:", aux_src);
+    });
+
+    $(".p-slides").on("click", ".nav-left", function(){
+        var slide_img = $(this).parent().children("img");
+        var aux_src = slide_img.attr("src");
+        var aux_index = slide_img.attr("data-index");
+        var aux_imgs = slide_img.attr("data-imgs");
+        var data = JSON.parse(aux_imgs);
+        var current_img = data[1].url;
+
+        slide_img.attr("src", data[2].url);
+
+        // alert("left: " + aux_src + " : " + aux_index + " : " + current_img);
+        console.log("aux_src:", aux_src);
+    });
+
+    // function nav_right() {
+    //     alert("right");
+    // };
+
+    // function nav_left() {
+    //     alert("left");
+    // };
 });
 
 
 //Slider imgs
-var slideIndex = 1;
-showSlides(slideIndex);
+// var slideIndex = 1;
+// showSlides(slideIndex);
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-};
+// function plusSlides(n) {
+//     showSlides(slideIndex += n);
+// };
 
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-};
+// function currentSlide(n) {
+//     showSlides(slideIndex = n);
+// };
 
-function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("nz-slides");
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    slides[slideIndex -1].style.display = "block";
-};
+// function showSlides(n) {
+//     var i;
+//     var slides = document.getElementsByClassName("nz-slides");
+//     if (n > slides.length) { slideIndex = 1 }
+//     if (n < 1) { slideIndex = slides.length }
+//     for (i = 0; i < slides.length; i++) {
+//         slides[i].style.display = "none";
+//     }
+//     slides[slideIndex -1].style.display = "block";
+// };

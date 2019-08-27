@@ -165,15 +165,19 @@ footer {
     font-size: 1rem;
 }
 
-.nz-slides {
-    display: none;
+.p-slides {
+    /* display: none; */
     /* border-style: solid;
     border-width: var(--borders-width);
     border-color: var(--main-txt-color); */
 }
 
-/* Next & previous buttons */
-.prev, .next {
+.p-slide {
+    width: 100%;
+}
+
+.nav-left,
+.nav-right {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -188,13 +192,13 @@ footer {
     border-radius: 0 3px 3px 0;
 }
 
-.next {
+.nav-right {
     right: 0;
     border-radius: 3px 0 0 3px;
  }
 
-.prev:hover,
-.next:hover {
+.nav-left:hover,
+.nav-right:hover {
     color: var(--main-txt-color);
     background-color: var(--main-bg-sel-color);
 }
