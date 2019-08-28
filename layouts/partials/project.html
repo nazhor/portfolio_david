@@ -13,10 +13,13 @@
                     <img src="{{ . }}" style="width:100%">
                 </div>
             {{ end }} -->
-            <div class="p-slides">
-                <img class="p-slide" src="{{ .pimg }}" data-index="0" data-imgs='[{"url":"/images/games/game1_1.jpg"},{"url":"/images/games/game1_2.jpg"},{"url":"/images/games/game1_3.jpg"}]'>
+            <div class="project-slides">
+                <!-- <img class="p-slide" src="{{ .pimg }}" data-index="0" data-imgs='[{"url":"/images/games/game1_1.jpg"},{"url":"/images/games/game1_2.jpg"},{"url":"/images/games/game1_3.jpg"}]'> -->
+
+                <img class="project-img" src="{{ .pimg }}" data-index="0" data-imgs="{{ .pimgs }}">
                 <a class="nav-right">&#x2BC8;</a>
                 <a class="nav-left">&#x2BC7;</a>
+
             </div>
             <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
