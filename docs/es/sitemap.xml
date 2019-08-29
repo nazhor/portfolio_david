@@ -3,94 +3,94 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://davidbernad.com/portfolio_david/es/</loc>
+    <loc>https://davidbernad.com/es/</loc>
     <lastmod>2019-07-23T18:31:40+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://davidbernad.com/portfolio_david/"
+                href="https://davidbernad.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/"
+                href="https://davidbernad.com/es/"
                 />
   </url>
   
   <url>
-    <loc>https://davidbernad.com/portfolio_david/es/projects/</loc>
+    <loc>https://davidbernad.com/es/projects/</loc>
     <lastmod>2019-07-23T18:31:40+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://davidbernad.com/portfolio_david/projects/"
+                href="https://davidbernad.com/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/projects/"
+                href="https://davidbernad.com/es/projects/"
                 />
   </url>
   
   <url>
-    <loc>https://davidbernad.com/portfolio_david/es/projects/the-fall-of-lazarus/</loc>
+    <loc>https://davidbernad.com/es/projects/the-fall-of-lazarus/</loc>
     <lastmod>2019-07-23T18:31:40+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://davidbernad.com/portfolio_david/projects/the-fall-of-lazarus/"
+                href="https://davidbernad.com/projects/the-fall-of-lazarus/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/projects/the-fall-of-lazarus/"
+                href="https://davidbernad.com/es/projects/the-fall-of-lazarus/"
                 />
   </url>
   
   <url>
-    <loc>https://davidbernad.com/portfolio_david/es/about/</loc>
+    <loc>https://davidbernad.com/es/about/</loc>
     <lastmod>2019-07-23T18:30:55+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://davidbernad.com/portfolio_david/about/"
+                href="https://davidbernad.com/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/about/"
+                href="https://davidbernad.com/es/about/"
                 />
   </url>
   
   <url>
-    <loc>https://davidbernad.com/portfolio_david/es/categories/</loc>
+    <loc>https://davidbernad.com/es/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://davidbernad.com/portfolio_david/categories/"
+                href="https://davidbernad.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/categories/"
+                href="https://davidbernad.com/es/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://davidbernad.com/portfolio_david/es/tags/</loc>
+    <loc>https://davidbernad.com/es/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://davidbernad.com/portfolio_david/tags/"
+                href="https://davidbernad.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/tags/"
+                href="https://davidbernad.com/es/tags/"
                 />
   </url>
   

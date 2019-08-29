@@ -6,12 +6,13 @@
     <body>
         {{ partial "header.html" . }}
         <div class="page-container">
-            {{ partial "about.html" . }}
-            <div id="projects">
-                {{ range $.Site.Data.projects }}
-                    {{ partial "project.html" . }}
-                {{ end }}
-            </div>
+            <section>
+                {{ partial "about.html" . }}
+            </section>
+            <section>
+                {{ partial "projects.html" . }}
+            </section>
+            <!-- {{ partial "footer.html" . }} -->
         </div>
         <!-- <div class="container wrapper">
             {{ with .Site.Params.ProfilePicture }}
@@ -39,7 +40,7 @@
             <div class="push"></div>
         </div>-->
 
-        {{ partial "footer.html" . }}
+        <!-- {{ partial "footer.html" . }} -->
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script> -->

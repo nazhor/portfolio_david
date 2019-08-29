@@ -1,0 +1,7 @@
+<div id="projects">
+    {{ range $.Site.Data.projects }}
+        {{ partial "project.html" . }}
+    {{ end }}
+    <div class="spaaace"></div>
+    {{ partial "footer.html" . }}
+</div>

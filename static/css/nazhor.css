@@ -31,6 +31,11 @@ body {
 
 footer {
     color: var(--main-txt-color);
+    font-size: 0.85rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 #header-container {
@@ -98,7 +103,8 @@ footer {
 .page-container {
     /* height: 100%; */
     position: relative;
-    min-height: calc(97vh - 1.5rem);
+    /* min-height: 100vh; */
+    /* min-height: calc(97vh - 1.5rem); */
 }
 
 #about,
@@ -107,7 +113,8 @@ footer {
     position: absolute;
     top: 0;
     width: 100%;
-    /* min-height: calc(97vh - 1.5rem); */
+    /* min-height: 100vh; */
+    min-height: calc(95vh - 1.5rem);
     /*float: left; */
 }
 
@@ -131,6 +138,11 @@ footer {
     border-width: var(--borders-width);
     border-radius: var(--borders-radius);
     border-color: var(--main-txt-color);
+}
+
+.spaaace {
+    height: 2rem;
+    /* margin-bottom: 1.5rem; */
 }
 
 .fab,

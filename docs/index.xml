@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>David Bernad Website</title>
-    <link>https://davidbernad.com/portfolio_david/</link>
+    <link>https://davidbernad.com/</link>
     <description>Recent content on David Bernad Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 23 Jul 2019 18:31:40 +0200</lastBuildDate>
     
-	<atom:link href="https://davidbernad.com/portfolio_david/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://davidbernad.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Fall of Lazarus</title>
-      <link>https://davidbernad.com/portfolio_david/projects/the-fall-of-lazarus/</link>
+      <link>https://davidbernad.com/projects/the-fall-of-lazarus/</link>
       <pubDate>Tue, 23 Jul 2019 18:31:40 +0200</pubDate>
       
-      <guid>https://davidbernad.com/portfolio_david/projects/the-fall-of-lazarus/</guid>
+      <guid>https://davidbernad.com/projects/the-fall-of-lazarus/</guid>
       <description>Probanding</description>
     </item>
     
     <item>
       <title>About me</title>
-      <link>https://davidbernad.com/portfolio_david/about/</link>
+      <link>https://davidbernad.com/about/</link>
       <pubDate>Tue, 23 Jul 2019 18:30:55 +0200</pubDate>
       
-      <guid>https://davidbernad.com/portfolio_david/about/</guid>
+      <guid>https://davidbernad.com/about/</guid>
       <description>Hello, is everything working?
   </description>
     </item>
