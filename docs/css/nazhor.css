@@ -2,7 +2,8 @@
     --main-bg-color: #000000;
     --main-txt-color: #ffffff;
     --main-bg-sel-color: #ff0000;
-    --borders-width: 0.1rem;
+    --borders-width: 1px;
+    /* --borders-width: 0.15rem; */
     --borders-radius: 0.2rem;
 }
 
@@ -140,19 +141,28 @@ footer {
     border-color: var(--main-txt-color);
 }
 
+#social {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 .spaaace {
-    height: 2rem;
+    height: 3rem;
     /* margin-bottom: 1.5rem; */
 }
 
 .fab,
-.fas {
+.fas,
+.far {
     color: var(--main-txt-color);
-    padding: 0.75rem 0.1rem;
+    padding: 0.25rem 0.15rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .fab:hover,
-.fas:hover {
+.fas:hover,
+.far:hover {
     color: var(--main-bg-sel-color);
 }
 
@@ -170,6 +180,7 @@ footer {
 }
 
 .project-slides {
+    margin-bottom: 1rem;
     /* display: none; */
     /* border-style: solid;
     border-width: var(--borders-width);
@@ -186,25 +197,28 @@ footer {
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 16px;
-    margin-top: -22px;
+    padding: 0.25rem;
+    margin-top: -1rem;
     color: var(--main-bg-color);
     background-color: var(--main-txt-color);
     font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 var(--borders-radius) var(--borders-radius) 0;
 }
 
 .nav-right {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: var(--borders-radius) 0 0 var(--borders-radius);
  }
 
 .nav-left:hover,
 .nav-right:hover {
     color: var(--main-txt-color);
     background-color: var(--main-bg-sel-color);
+}
+
+.p-white,
+.p-black {
+    margin-left: 0.5rem;
 }
 
 
@@ -216,11 +230,21 @@ footer {
 .p-black {
     background: #000000;
     color: #ffffff !important;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 0 0 var(--borders-width) var(--borders-width);
 }
 
-.separator {
-    height: 40px;
-    background: linear-gradient(to bottom left, #ffffff 50%, transparent 40%) no-repeat bottom;
+
+.links-container {
+    background-color: var(--main-bg-color);
+    width: max-content;
+    margin: 1.25rem;
+    margin-left: -1px;
+    border-style: solid;
+    border-color: #ffffff #ffffff #ffffff #000000;
+    border-width: var(--borders-width);
+    border-radius: 0 0.75rem 0.75rem 0;
 }
 
 @media screen and (min-width: 64em) {
