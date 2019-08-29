@@ -1,5 +1,20 @@
 <div id="projects">
-    {{ range $.Site.Data.projects }}
+    <div class="pure-g filter center">
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <p class="filter-button" id="all-button">{{ .Site.Params.TagAll }}</p>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <p class="filter-button" id="games-button">{{ .Site.Params.TagGames }}</p>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <p class="filter-button" id="soft-button">{{ .Site.Params.TagSoft }}</p>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <p class="filter-button" id="other-button">{{ .Site.Params.TagOther }}</p>
+        </div>
+    </div>
+    {{ $data := index .Site.Data.projects .Site.Language.Lang }}
+    {{ range $data }}
         {{ partial "project.html" . }}
     {{ end }}
     <div class="spaaace"></div>

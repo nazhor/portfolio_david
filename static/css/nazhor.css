@@ -1,9 +1,9 @@
 :root {
-    --main-bg-color: #000000;
+    --main-bg-color-b: #0C0C0C;
+    --main-bg-color-w: #ffffff;
+    --main-bg-color-sel: #ff0000;
     --main-txt-color: #ffffff;
-    --main-bg-sel-color: #ff0000;
     --borders-width: 1px;
-    /* --borders-width: 0.15rem; */
     --borders-radius: 0.2rem;
 }
 
@@ -24,10 +24,9 @@ body {
     overflow-x: hidden;
     margin: 0px;
     height: 100%;
-    background-color: var(--main-bg-color);
+    background-image: url("/images/tile.png");
+    background-repeat: repeat;
     color: var(--main-txt-color);
-    /* background: url("/images/background.jpg"); */
-    /* font-family: 'Share Tech Mono', monospace; */
 }
 
 footer {
@@ -40,8 +39,6 @@ footer {
 }
 
 #header-container {
-    background: var(--main-bg-color);
-    /* background: red; */
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -53,7 +50,7 @@ footer {
 #about-button,
 #projects-button,
 #lang-button {
-    background: var(--main-bg-color);
+    background: var(--main-bg-color-b);
     color: var(--main-txt-color);
     margin: 0.3rem;
     border-style: solid;
@@ -80,7 +77,7 @@ footer {
 #about-button:hover,
 #projects-button:hover,
 #lang-button:hover {
-    background: var(--main-bg-sel-color);
+    background: var(--main-bg-color-sel);
 }
 
 .center {
@@ -102,10 +99,7 @@ footer {
 }
 
 .page-container {
-    /* height: 100%; */
     position: relative;
-    /* min-height: 100vh; */
-    /* min-height: calc(97vh - 1.5rem); */
 }
 
 #about,
@@ -114,21 +108,11 @@ footer {
     position: absolute;
     top: 0;
     width: 100%;
-    /* min-height: 100vh; */
     min-height: calc(95vh - 1.5rem);
-    /*float: left; */
 }
 
 #projects {
-    /* margin-top: 3.5rem;
-    position: absolute;
-    top: 0; */
     display: none;
-    /* width: 100%; */
-
-    /* min-height: calc(90vh - 1.5rem);
-    width: 40%;
-    background: blue; */
 }
 
 #description {
@@ -148,7 +132,6 @@ footer {
 
 .spaaace {
     height: 3rem;
-    /* margin-bottom: 1.5rem; */
 }
 
 .fab,
@@ -163,7 +146,7 @@ footer {
 .fab:hover,
 .fas:hover,
 .far:hover {
-    color: var(--main-bg-sel-color);
+    color: var(--main-bg-color-sel);
 }
 
 .project-left,
@@ -181,10 +164,6 @@ footer {
 
 .project-slides {
     margin-bottom: 1rem;
-    /* display: none; */
-    /* border-style: solid;
-    border-width: var(--borders-width);
-    border-color: var(--main-txt-color); */
 }
 
 .project-img {
@@ -199,8 +178,8 @@ footer {
     width: auto;
     padding: 0.25rem;
     margin-top: -1rem;
-    color: var(--main-bg-color);
-    background-color: var(--main-txt-color);
+    color: var(--main-bg-color-b);
+    background-color: var(--main-bg-color-w);
     font-weight: bold;
     border-radius: 0 var(--borders-radius) var(--borders-radius) 0;
 }
@@ -213,38 +192,58 @@ footer {
 .nav-left:hover,
 .nav-right:hover {
     color: var(--main-txt-color);
-    background-color: var(--main-bg-sel-color);
+    background-color: var(--main-bg-color-sel);
 }
 
 .p-white,
-.p-black {
+.p-black,
+.filter {
     margin-left: 0.5rem;
 }
 
-
 .p-white {
-    background: #ffffff;
+    background: var(--main-bg-color-w);
     color: #000000 !important;
 }
 
 .p-black {
-    background: #000000;
+    background: var(--main-bg-color-b);
     color: #ffffff !important;
     border-style: solid;
     border-color: #ffffff;
     border-width: 0 0 var(--borders-width) var(--borders-width);
 }
 
+.filter p {
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.all {
+    display: inline-flex;
+}
 
 .links-container {
-    background-color: var(--main-bg-color);
+    background-image: url("/images/tile.png");
+    background-repeat: repeat;
     width: max-content;
     margin: 1.25rem;
     margin-left: -1px;
     border-style: solid;
-    border-color: #ffffff #ffffff #ffffff #000000;
+    border-color: #ffffff #ffffff #ffffff var(--main-bg-color-b);
     border-width: var(--borders-width);
     border-radius: 0 0.75rem 0.75rem 0;
+}
+
+.filter-button {
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: var(--borders-width);
+}
+
+.filter-button:hover {
+    background-color: var(--main-bg-color-sel);
+    cursor: pointer;
 }
 
 @media screen and (min-width: 64em) {
@@ -292,183 +291,3 @@ footer {
         margin-right: 3rem;
     }
 }
-
-/* .triangle-top-left {
-    width: 100%;
-    height: 50px;
-    background: linear-gradient(to bottom right, #830024 50%, transparent 50.5%) no-repeat bottom;
-} */
-
-/* .triangle-top-left:hover {
-    background: linear-gradient(to bottom right, #09eb2f 50%, transparent 50.5%) no-repeat bottom;
-}   */
-
-
-
-/* * {
-    margin: 0;
-}
-
-html {
-    height: 100%;
-}
-
-body {
-    background-color: #fdfdfd;
-    height: 100%;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.5em;
-    padding-top: 70px;
-}
-
-img {
-     max-width: 100%;
-}
-
-a{
-    color: #ffffff;
-}
-
-a:hover{
-    color: #ff0000 !important;
-}
-
-#green-terminal {
-    color: #00ff00;
-}
-
-#red-terminal {
-    color: #ff0000;
-}
-
-.font-header {
-    font-family: 'Inconsolata', monospace;
-}
-
-.font-paragraph {
-    font-family: 'Open Sans', sans-serif;
-}
-
-nav {
-    font-size: 1.5em;
-}
-
-.dropdown-menu li {
-    font-size: 1.5em;
-}
-
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Concert One', cursive;
-}
-
-#user-name {
-    font-size: 5em;
-    text-transform: uppercase;
-}
-
-.user-description {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #292929;
-    margin-top: 20px;
-    margin-bottom: 1em;
-    padding: 15px;
-    font-size: initial;
-}
-
-.user-profile {
-    padding: 0;
-}
-
-.user-picture {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #292929;
-    margin-top: 20px;
-}
-
-i {
-    margin: 10px 20px 10px 20px;
-    color: #333;
-}
-
-.post-link {
-    float: left;
-}
-
-.post-date {
-    float: right;
-}
-
-.post-header {
-    background-color: #F5F5F5;
-    overflow: hidden;
-    padding: 0 5px 0 5px;
-}
-
-.post-summary, .post-content{
-    clear: both;
-}
-
-.post-summary {
-    padding: 0 5px 0 5px;
-}
-
-.post-list-footer {
-    padding-bottom: 5px;
-}
-
-#post-list {
-    list-style: none;
-    padding-left: 0;
-}
-
-.post-list-item {
-    margin-top: 20px;
-    border-style: solid;
-    border-width: 0 0 3px 0;
-    border-color: #292929;
-}
-
-.post-comments {
-    padding-top: 10px;
-    border-top-style: solid;
-}
-
-.wrapper {
-    min-height: 100%;
-    margin: 0 auto -50px;
-}
-
-.wrapper a {
-    color: #101010;
-}
-
-.footer {
-    background-color: #101010;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    height: 50px;
-}
-
-.footer p {
-    color: #ffffff;
-}
-
-.push {
-    height: 50px;
-}
-
-.col-centered{
-    float: none;
-    margin: 0 auto;
-}
-
-div p {
-    text-align: justify;
-}
-
-td {
-    margin: 0 20px 0 20px;
-} */

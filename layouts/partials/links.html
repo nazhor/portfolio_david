@@ -1,16 +1,16 @@
 <!-- Links to content -->
 {{ with .Site.Params.GithubRepo }}
-<a href="https://github.com/{{.}}" rel="me" title="GitHub Repo"><i class="fab fa-github fa-3x" aria-hidden="true"></i></a>
+<a href="https://github.com/{{.}}" target="_blank" title="GitHub Repo"><i class="fab fa-github fa-3x" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .YoutubeVideo }}
-<a href="www.youtube.com/watch?v={{.}}" rel="me" title="Trailer"><i class="fab fa-youtube fa-3x" aria-hidden="true"></i></a>
+<a href="https://www.youtube.com/watch?v={{.}}" target="_blank" title="Trailer"><i class="fab fa-youtube fa-3x" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .SteamGame }}
-<a href="https://www.store.steampowered.com/app/{{.}}" rel="me" title="Steam page"><i class="fab fa-steam fa-3x" aria-hidden="true"></i></a>
+<a href="https://store.steampowered.com/app/{{.}}" target="_blank" title="Steam page"><i class="fab fa-steam fa-3x" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .ItchioGame }}
-<a href="https://{{.}}" rel="me" title="Itch.IO page"><i class="fab fa-itch-io fa-3x" aria-hidden="true"></i></a>
+<a href="https://{{.}}" target="_blank" title="Itch.IO page"><i class="fab fa-itch-io fa-3x" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .WebLink }}
-<a href="https://{{.}}" rel="me" title="Website"><i class="far fa-browser fa-3x" aria-hidden="true"></i></a>
+<a href="https://{{.}}" target="_blank" title="Website"><i class="far fa-browser fa-3x" aria-hidden="true"></i></a>
 {{ end }}

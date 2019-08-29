@@ -1,0 +1,26 @@
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GitHubRepo: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "The Fall of Lazarus"
+ptech = "Techonology: Unreal Engine 4"
+ptext = "The Fall of Lazarus was my first commercial game developed during my time at No Wand Studios. I took the roles of technical director, producer and programmer. As a producer I was in charge of manage the team and take care of all the development cost and planification. As a programmer, during the first version my work was to take care of all the UI elements of the game and engine related issues. For the second version I worked in almost every piece of the game, from gameplay, to lightning or optimization."
+ptag = "games"
+pimg = "/images/games/game1_1.jpg"
+pimgs = [
+    "/images/games/game1_1.jpg",
+    "/images/games/game1_2.jpg",
+    "/images/games/game1_3.jpg"
+]
+GitHubRepo = "nazhor/portfolio_david"
+YoutubeVideo = "8ZLG-KmuMwM"
+SteamGame = "622010/The_Fall_of_Lazarus/"
+ItchioGame = "no-wand-studios.itch.io/the-fall-of-lazarus"
+WebLink = "thefalloflazarus.com/"
