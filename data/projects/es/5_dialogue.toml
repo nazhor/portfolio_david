@@ -1,9 +1,17 @@
-pname = "Dialogue tool"
-ptech = "Language: C#"
-ptext = "Cupcake ipsum dolor sit amet candy pastry lemon drops. Muffin sweet bonbon candy canes gingerbread. Sugar plum cupcake marshmallow. Macaroon dessert cake marzipan powder pastry danish sweet. Powder gingerbread tart candy marshmallow caramels gummies candy canes. Donut chocolate bar souffl√© croissant. Sesame snaps croissant gummies oat cake croissant cotton candy liquorice halvah. Sugar plum wafer gummies apple pie macaroon.           Candy canes cookie caramels chocolate toffee gummies muffin oat cake donut. Cake cheesecake candy macaroon gummies gingerbread. Fruitcake cotton candy macaroon gummi bears gummies. Cotton candy cotton candy gummies. Marzipan pastry powder liquorice muffin. Cake liquorice lemon drops chupa chups croissant. Liquorice pastry drag√©e marshmallow."
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GithubRepo: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "Chatmapper CSV custom export"
+ptech = "TecnologÌa: C#"
+ptext = "Para desarrollar el sistema de di·logos de Hello, My Name Is Nobody usamos como base Chatmapper, pero a la hora de trasladar esos datos a Unreal tuve que crear esta herramienta intermedia que adem·s de exportar a CSV realizara una serie de validaciones para comprobar que di·logo era correcto (por ejemplo, comprobar que no hay nodos sin destino)."
 ptag = "software"
 pimg = "/images/games/game1_1.jpg"
-YoutubeVideo = "8ZLG-KmuMwM"
-SteamGame = "622010/The_Fall_of_Lazarus/"
-ItchioGame = "no-wand-studios.itch.io/the-fall-of-lazarus"
-WebLink = "thefalloflazarus.com/"
+GithubRepo = "nazhor/portfolio_david"

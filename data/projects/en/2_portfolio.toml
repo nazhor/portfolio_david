@@ -1,9 +1,18 @@
-pname = "Portfolios"
-ptech = "Tech: Hugo, Jquery"
-ptext = "Cupcake ipsum dolor sit amet candy pastry lemon drops. Muffin sweet bonbon candy canes gingerbread. Sugar plum cupcake marshmallow. Macaroon dessert cake marzipan powder pastry danish sweet. Powder gingerbread tart candy marshmallow caramels gummies candy canes. Donut chocolate bar soufflé croissant. Sesame snaps croissant gummies oat cake croissant cotton candy liquorice halvah. Sugar plum wafer gummies apple pie macaroon.           Candy canes cookie caramels chocolate toffee gummies muffin oat cake donut. Cake cheesecake candy macaroon gummies gingerbread. Fruitcake cotton candy macaroon gummi bears gummies. Cotton candy cotton candy gummies. Marzipan pastry powder liquorice muffin. Cake liquorice lemon drops chupa chups croissant. Liquorice pastry dragée marshmallow."
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GithubRepo: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "Portfolio"
+ptech = "Technology: Hugo, jquery, pure.css"
+ptext = "This is the project of the website you are currently browser that I design and code myself. It was developed using Hugo framework and other web libraries and techs like jquery and pure.css. The portfolio of my friend Johnny is also part of this project."
 ptag = "software"
 pimg = "/images/games/game1_1.jpg"
-
-YoutubeVideo = "8ZLG-KmuMwM"
-SteamGame = "622010/The_Fall_of_Lazarus/"
-
+GithubRepo = "nazhor/portfolio_david"
+# WebLink = "google.es"
