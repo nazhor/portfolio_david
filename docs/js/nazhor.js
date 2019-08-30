@@ -209,10 +209,10 @@ $(document).ready(function() {
         var has_imgs = modal_img.attr("data-imgs");
         if (has_imgs != "") {
             var modal_nav_right = $("<a><i class='fal fa-arrow-alt-right'></i></a>");
-            modal_nav_right.addClass("nav-right");
+            modal_nav_right.addClass("nav-right modal-nav");
             $("#modal-content").append(modal_nav_right);
-            var modal_nav_left = $("<a><i class='fal fa-arrow-alt-right'></i></a>");
-            modal_nav_left.addClass("nav-left");
+            var modal_nav_left = $("<a><i class='fal fa-arrow-alt-left'></i></a>");
+            modal_nav_left.addClass("nav-left modal-nav");
             $("#modal-content").append(modal_nav_left);
         }
         $("#modal").css("display", "block");
@@ -221,7 +221,8 @@ $(document).ready(function() {
 
     $("#close-modal").on("click", function() {
         $("#modal").css("display", "none");
-        $("#modal-content").remove();
+        $(".modal-img").remove();
+        $(".modal-nav").remove();
         $("body").css("overflow-y", "auto");
     });
 });

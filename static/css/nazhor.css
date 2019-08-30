@@ -116,6 +116,10 @@ footer {
     display: none;
 }
 
+#description-container {
+    margin: 1.25rem;
+}
+
 #description {
     text-align: justify;
     margin: 0;
@@ -301,7 +305,6 @@ footer {
     #about-button,
     #projects-button {
         font-size: 1.4rem;
-        margin-left: 1.5rem;
     }
 
     #lang-button {
@@ -320,6 +323,7 @@ footer {
 
     #description {
         margin: auto 2rem;
+        font-size: 1.5rem;
     }
 
     .project-left {
