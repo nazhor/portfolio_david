@@ -1,6 +1,4 @@
 baseurl = "https://davidbernad.com/"
-#For testing
-# baseurl = "https://davidbernad.com/portfolio_david/"
 title = "David Bernad Website"
 DefaultContentLanguage = "en"
 googleAnalytics = "UA-XXXXXXXX-Y"
@@ -22,8 +20,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     Email = "contact@davidbernad.com"
 
     ProfilePicture = "/images/photo.jpg"
-    #For testing
-    # ProfilePicture = "images/photo.jpg"
 
 [languages]
     [languages.en]
