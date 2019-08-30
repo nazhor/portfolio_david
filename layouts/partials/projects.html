@@ -17,6 +17,9 @@
     {{ range $data }}
         {{ partial "project.html" . }}
     {{ end }}
+    <div id="modal">
+        <span id="close-modal">&times;</span>
+    </div>
     <div class="spaaace"></div>
     {{ partial "footer.html" . }}
 </div>
