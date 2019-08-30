@@ -205,15 +205,15 @@ $(document).ready(function() {
         modal_img.attr("data-index", current_index);
         modal_img.attr("data-imgs", aux_imgs);
         modal_img.addClass("modal-img");
-        $("#modal").append(modal_img);
+        $("#modal-content").append(modal_img);
         var has_imgs = modal_img.attr("data-imgs");
         if (has_imgs != "") {
-            var modal_nav_right = $("<a></a>").html("&#x2BC8;");
-            modal_nav_right.addClass("nav-right modal-nav");
-            $("#modal").append(modal_nav_right);
-            var modal_nav_left = $("<a></a>").html("&#x2BC7;");
-            modal_nav_left.addClass("nav-left modal-nav");
-            $("#modal").append(modal_nav_left);
+            var modal_nav_right = $("<a><i class='fal fa-arrow-alt-right'></i></a>");
+            modal_nav_right.addClass("nav-right");
+            $("#modal-content").append(modal_nav_right);
+            var modal_nav_left = $("<a><i class='fal fa-arrow-alt-right'></i></a>");
+            modal_nav_left.addClass("nav-left");
+            $("#modal-content").append(modal_nav_left);
         }
         $("#modal").css("display", "block");
         $("body").css("overflow-y", "hidden");
@@ -221,8 +221,7 @@ $(document).ready(function() {
 
     $("#close-modal").on("click", function() {
         $("#modal").css("display", "none");
-        $(".modal-img").remove();
-        $(".modal-nav").remove();
+        $("#modal-content").remove();
         $("body").css("overflow-y", "auto");
     });
 });

@@ -1,0 +1,25 @@
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GithubRepo: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "No Wand Studios"
+ptech = "Estudio de videojuegos indie"
+ptext = "No Wand Studios fue la compañía que fundé junto a Johnny y otras personas. Durante este periodo desarrollé muchas tareas y proyectos diferentes, desde los juegos que puedes encontrar en esta página, a serious games que utilizaban el antiguo DevKit de Oculus VR. También me encargué de las labores de contabilidad y burocracia de la empresa. El proyecto no fue un éxito pero las habilidades que desarrollé durante el tiempo que dirigía la empresa no tienen precio."
+ptag = "other"
+pimg = "/images/other/nws/0_EGXLondon.jpg"
+pimgs = [
+    "/images/other/nws/0_EGXLondon.jpg",
+    "/images/other/nws/1_Gamelab2015_1.jpg",
+    "/images/other/nws/2_Gamelab2015_2.jpg",
+    "/images/other/nws/3_cerbuna.jpg",
+    "/images/other/nws/4_millagame.jpg"
+]
+WebLink = "nowandstudios.com"
+

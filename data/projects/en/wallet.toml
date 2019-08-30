@@ -1,0 +1,24 @@
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GithubRepo: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "The Wallet Games"
+ptech = "Technology: Unity"
+ptext = "The Wallet Games was a small mobile game we developed as some type of joke about the steam sales. Aside from my team managing role, I made all the APIs integration and ports for Android and iOS."
+ptag = "games"
+pimg = "/images/games/wallet/0_wallet.jpg"
+pimgs = [
+    "/images/games/wallet/0_wallet.jpg",
+    "/images/games/wallet/1_wallet.jpg",
+    "/images/games/wallet/2_wallet.jpg"
+]
+YoutubeVideo = "hlkVpG5CGhQ"
+ItchioGame = "no-wand-studios.itch.io/the-fall-of-lazarus"
+

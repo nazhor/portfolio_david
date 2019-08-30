@@ -1,0 +1,25 @@
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GithubRepo: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "Hello, My Name Is Nobody"
+ptech = "Technology: Unreal Engine 4"
+ptext = "The game main feature is the dialogue system in which we tried to recreate a fluent and organic conversation. This prototype was developed only by me and my partner so every technical aspect of the same is my work. Aside from all the work I did in Unreal Engine I also have to developed a little side-tool for the dialogue system. I also was was capable of making the prototype running smoothly on a Nintendo Switch DevKit."
+ptag = "games"
+pimg = "/images/games/nobody/0_HMNINScreenshot.jpg"
+pimgs = [
+    "/images/games/nobody/0_HMNINScreenshot.jpg",
+    "/images/games/nobody/1_HMNINScreenshot.jpg",
+    "/images/games/nobody/2_HMNINScreenshot.jpg",
+    "/images/games/nobody/3_HMNINScreenshot.jpg",
+    "/images/games/nobody/4_StandEGX.jpg"
+]
+YoutubeVideo = "stgE6K3A0tg"
+WebLink = "theroseofjerichobar.com/"

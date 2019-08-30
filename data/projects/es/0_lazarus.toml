@@ -10,14 +10,22 @@
 #ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
 #WebLink:  URL without the https
 pname = "The Fall of Lazarus"
-ptech = "TecnologÌa: Unreal Engine 4"
-ptext = "The Fall of Lazarus fue mi primer juego comercial desarrollado durante el periodo de No Wand Studios. Mis roles fueron el de director tÈcnico, productor y programador. Como productor estuve a cargo de gestionar el equipo y planificar todos los costes y tiempos del desarrollo. Como programador, durante la primera versiÛn trabajÈ principlamente como programador de UI adem·s de encarge de las incidencias relacionadas con el motor. En la versiÛn dos trabajÈ en practicamente todos los aspectos del juego, desde gameplay, iluminaciÛn or optimizaciÛn."
+ptech = "Tecnolog√≠a: Unreal Engine 4"
+ptext = "The Fall of Lazarus fue mi primer juego comercial desarrollado durante el periodo de No Wand Studios. Mis roles fueron el de director t√©cnico, productor y programador. Como productor estuve a cargo de gestionar el equipo y planificar todos los costes y tiempos del desarrollo. Como programador, durante la primera versi√≥n trabaj√© principlamente como programador de UI adem√°s de encarge de las incidencias relacionadas con el motor. En la versi√≥n dos trabaj√© en practicamente todos los aspectos del juego, desde gameplay, iluminaci√≥n o optimizaci√≥n."
 ptag = "games"
-pimg = "/images/games/game1_1.jpg"
+pimg = "/images/games/lazarus/0_USSCLazarusLevel1Demo.jpg"
 pimgs = [
-    "/images/games/game1_1.jpg",
-    "/images/games/game1_2.jpg",
-    "/images/games/game1_3.jpg"
+    "/images/games/lazarus/0_USSCLazarusLevel1Demo.jpg",
+    "/images/games/lazarus/1_Airlock.jpg",
+    "/images/games/lazarus/2_CrewHub.jpg",
+    "/images/games/lazarus/3_TheFallOfLazarus.jpg",
+    "/images/games/lazarus/4_LazarusWorkshops.jpg",
+    "/images/games/lazarus/5_SuitRoom.jpg",
+    "/images/games/lazarus/6_BreakRoom.jpg",
+    "/images/games/lazarus/7_CryoStasisChamber1.jpg",
+    "/images/games/lazarus/8_GenEthicsOffice.jpg",
+    "/images/games/lazarus/9_LazarusObjects4.jpg",
+    "/images/games/lazarus/10_TheCube.jpg"
 ]
 YoutubeVideo = "8ZLG-KmuMwM"
 SteamGame = "622010/The_Fall_of_Lazarus/"

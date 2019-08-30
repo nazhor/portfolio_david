@@ -13,11 +13,19 @@ pname = "The Fall of Lazarus"
 ptech = "Techonology: Unreal Engine 4"
 ptext = "The Fall of Lazarus was my first commercial game developed during my time at No Wand Studios. I took the roles of technical director, producer and programmer. As a producer I was in charge of manage the team and take care of all the development cost and planification. As a programmer, during the first version I worked as UI programmer and also I took care of all the engine related issues. For the second version I worked in almost every piece of the game, from gameplay, to lightning or optimization."
 ptag = "games"
-pimg = "/images/games/game1_1.jpg"
+pimg = "/images/games/lazarus/0_USSCLazarusLevel1Demo.jpg"
 pimgs = [
-    "/images/games/game1_1.jpg",
-    "/images/games/game1_2.jpg",
-    "/images/games/game1_3.jpg"
+    "/images/games/lazarus/0_USSCLazarusLevel1Demo.jpg",
+    "/images/games/lazarus/1_Airlock.jpg",
+    "/images/games/lazarus/2_CrewHub.jpg",
+    "/images/games/lazarus/3_TheFallOfLazarus.jpg",
+    "/images/games/lazarus/4_LazarusWorkshops.jpg",
+    "/images/games/lazarus/5_SuitRoom.jpg",
+    "/images/games/lazarus/6_BreakRoom.jpg",
+    "/images/games/lazarus/7_CryoStasisChamber1.jpg",
+    "/images/games/lazarus/8_GenEthicsOffice.jpg",
+    "/images/games/lazarus/9_LazarusObjects4.jpg",
+    "/images/games/lazarus/10_TheCube.jpg"
 ]
 YoutubeVideo = "8ZLG-KmuMwM"
 SteamGame = "622010/The_Fall_of_Lazarus/"

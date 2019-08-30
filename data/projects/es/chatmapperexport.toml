@@ -1,0 +1,17 @@
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GithubRepo: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "Chatmapper CSV custom export"
+ptech = "Tecnología: C#"
+ptext = "Para desarrollar el sistema de diálogos de Hello, My Name Is Nobody usamos como base Chatmapper, pero a la hora de trasladar esos datos a Unreal tuve que crear esta herramienta intermedia que además de exportar a CSV realizara una serie de validaciones para comprobar que diálogo era correcto (por ejemplo, comprobar que no hay nodos sin destino)."
+ptag = "software"
+pimg = "/images/software/0_chatmapperexport.jpg"
+GithubRepo = "nazhor/portfolio_david"

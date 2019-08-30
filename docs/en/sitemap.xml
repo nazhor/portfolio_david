@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://davidbernad.com/portfolio_david/</loc>
+    <loc>https://davidbernad.com/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/"
+                href="https://davidbernad.com/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://davidbernad.com/portfolio_david/"
+                href="https://davidbernad.com/"
                 />
   </url>
   
