@@ -6,6 +6,7 @@ DefaultContentLanguage = "en"
 googleAnalytics = "UA-XXXXXXXX-Y"
 
 publishdir = "docs"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
     # Meta

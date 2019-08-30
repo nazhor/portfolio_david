@@ -4,7 +4,6 @@
   
   <url>
     <loc>https://davidbernad.com/portfolio_david/es/</loc>
-    <lastmod>2019-07-23T18:31:40+02:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -15,82 +14,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="https://davidbernad.com/portfolio_david/es/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://davidbernad.com/portfolio_david/es/projects/</loc>
-    <lastmod>2019-07-23T18:31:40+02:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://davidbernad.com/portfolio_david/projects/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/projects/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://davidbernad.com/portfolio_david/es/projects/the-fall-of-lazarus/</loc>
-    <lastmod>2019-07-23T18:31:40+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://davidbernad.com/portfolio_david/projects/the-fall-of-lazarus/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/projects/the-fall-of-lazarus/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://davidbernad.com/portfolio_david/es/about/</loc>
-    <lastmod>2019-07-23T18:30:55+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://davidbernad.com/portfolio_david/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://davidbernad.com/portfolio_david/es/categories/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://davidbernad.com/portfolio_david/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://davidbernad.com/portfolio_david/es/tags/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://davidbernad.com/portfolio_david/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://davidbernad.com/portfolio_david/es/tags/"
                 />
   </url>
   
