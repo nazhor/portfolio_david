@@ -11,7 +11,7 @@
 #WebLink:  URL without the https
 pname = "Hello, My Name Is Nobody"
 ptech = "Tecnología: Unreal Engine 4"
-ptext = "La principal característica de este juego es su sistema de diálogos donde intentamos recrear una conversación orgánica y fluida. Este prototipo fue desarrollado unicamente por mí y mi socio por lo que todos los aspectos técnicos del mismo son fruto de mi trabajo. Además de todo lo relacionado con Unreal Engine también desarrollé una pequeña herramienta paralela para procesar los ficheros de diálogos. También conseguí hacer funcionar el prototipo en un DevKit de Nintendo Switch."
+ptext = "La principal característica de este juego es su sistema de diálogos donde intentamos recrear una conversación orgánica y fluida. Este prototipo fue desarrollado unicamente por mí y mi socio por lo que todos los aspectos técnicos del mismo son fruto de mi trabajo. Además de todo lo relacionado con Unreal Engine también desarrollé una pequeña herramienta paralela para procesar los ficheros de diálogos. Este prototipo también funciona de forma estable en un DevKit de Nintendo Switch."
 ptag = "games"
 pimg = "/images/games/nobody/0_HMNINScreenshot.jpg"
 pimgs = [

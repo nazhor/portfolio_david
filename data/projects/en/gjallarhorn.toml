@@ -1,0 +1,25 @@
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GithubRepo: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "Gjallarhorn"
+ptech = "Technology: Unity"
+ptext = "Gjallarhorn has his origin in a game jam. I took care of making the versions of the game for Android, iOs and Windows Universal platform with the integration of the APIs for every platform. I was also in charge of making the online leaderboard."
+ptag = "games"
+pimg = "/images/games/gjallarhorn/0_gjallarhorn.jpg"
+pimgs = [
+    "/images/games/gjallarhorn/0_gjallarhorn.jpg",
+    "/images/games/gjallarhorn/1_gjallarhorn.jpg",
+    "/images/games/gjallarhorn/2_gjallarhorn.jpg",
+    "/images/games/gjallarhorn/3_gjallarhorn.jpg"
+]
+YoutubeVideo = "O5uM5OmOPWA"
+ItchioGame = "no-wand-studios.itch.io/gjallarhorn"
+
