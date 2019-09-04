@@ -1,5 +1,8 @@
 <!-- Links to content -->
-{{ with .GithubRepo }}
+{{ with .GithubRepo1 }}
+<a href="https://github.com/{{.}}" target="_blank" title="GitHub Repo"><i class="fab fa-github fa-3x" aria-hidden="true"></i></a>
+{{ end }}
+{{ with .GithubRepo2 }}
 <a href="https://github.com/{{.}}" target="_blank" title="GitHub Repo"><i class="fab fa-github fa-3x" aria-hidden="true"></i></a>
 {{ end }}
 {{ with .YoutubeVideo }}

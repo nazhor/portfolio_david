@@ -4,16 +4,18 @@
 #ptag: games, software, other
 #pimg: First image to be displayed
 #pimgs: Array of images for the slider. You have to include also the first image.
-#GithubRepo: Repo url. user/repo_url
+#GithubRepo1: Repo url. user/repo_url
+#GithubRepo2: Repo url. user/repo_url
 #YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
 #SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
 #ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
 #WebLink:  URL without the https
 pname = "Portfolio"
 ptech = "Tecnología: Hugo, jquery, pure.css"
-ptext = "El proyecto de la página web que estás actualmente navegando, diseñada y programada por mí. Desarrollada utilizando el framework Hugo y otras librerías y tecnologías web como jquery y pure.css. El portfolio de mi amigo Johnny también es parte de este proyecto."
+ptext = "Este proyecto incluye esta web y el portfolio personal de Johnny Prat. la web que está actualmente navegando ha sido diseñada y programada por mí, la página de Johnny ha sido programada por mí siguiendo su diseño e indicaciones. Desarrolladas utilizando el framework Hugo y otras librerías y tecnologías web como jquery, pure.css..."
 ptag = "software"
 pimg = "/images/software/0_portfolio.jpg"
-GithubRepo = "nazhor/portfolio_david"
-# WebLink = "johnnydevv.com"
+GithubRepo1 = "nazhor/portfolio_david"
+GithubRepo2 = "nazhor/portfolio_johnny"
+WebLink = "johnnyprat.com"
 

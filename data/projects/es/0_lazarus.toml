@@ -4,7 +4,8 @@
 #ptag: games, software, other
 #pimg: First image to be displayed
 #pimgs: Array of images for the slider. You have to include also the first image.
-#GitHubRepo: Repo url. user/repo_url
+#GithubRepo1: Repo url. user/repo_url
+#GithubRepo2: Repo url. user/repo_url
 #YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
 #SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
 #ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
