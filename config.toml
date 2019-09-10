@@ -1,7 +1,7 @@
 baseurl = "https://davidbernad.com/"
 title = "David Bernad Website"
 DefaultContentLanguage = "en"
-googleAnalytics = "UA-XXXXXXXX-Y"
+googleAnalytics = "UA-147539428-1"
 
 publishdir = "docs"
 disableKinds = ["taxonomy", "taxonomyTerm"]
