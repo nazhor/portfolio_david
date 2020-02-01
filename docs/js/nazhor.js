@@ -219,10 +219,20 @@ $(document).ready(function() {
         $("body").css("overflow-y", "hidden");
     });
 
-    $("#close-modal").on("click", function() {
+    function close_modal() {
         $("#modal").css("display", "none");
         $(".modal-img").remove();
         $(".modal-nav").remove();
         $("body").css("overflow-y", "auto");
+    }
+
+    $("#close-modal").on("click", function() {
+        close_modal();
+    });
+
+    $(document).keyup(function(e){
+        if(e.keyCode === 27) {
+            close_modal();
+        }
     });
 });
