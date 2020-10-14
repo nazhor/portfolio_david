@@ -208,10 +208,10 @@ $(document).ready(function() {
         $("#modal-content").append(modal_img);
         var has_imgs = modal_img.attr("data-imgs");
         if (has_imgs != "") {
-            var modal_nav_right = $("<a><i class='fal fa-arrow-alt-right'></i></a>");
+            var modal_nav_right = $("<a><i class='fas fa-angle-right'></i></a>");
             modal_nav_right.addClass("nav-right modal-nav");
             $("#modal-content").append(modal_nav_right);
-            var modal_nav_left = $("<a><i class='fal fa-arrow-alt-left'></i></a>");
+            var modal_nav_left = $("<a><i class='fas fa-angle-left'></i></a>");
             modal_nav_left.addClass("nav-left modal-nav");
             $("#modal-content").append(modal_nav_left);
         }

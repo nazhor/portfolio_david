@@ -163,12 +163,12 @@ footer {
     margin-right: 0.5rem;
 }
 
-.fab:hover,
+/* .fab:hover,
 .fas:hover,
 .far:hover {
-    color: #ff0000;
+    color: #000000;
     color: var(--main-bg-color-sel);
-}
+} */
 
 .project-left,
 .project-right {
