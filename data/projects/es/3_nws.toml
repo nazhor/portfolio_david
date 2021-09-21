@@ -11,13 +11,13 @@
 #ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
 #WebLink:  URL without the https
 pname = "No Wand Studios"
-ptech = "Indie video game studio"
-ptext = "No Wand Studios was the company I founded along with Johnny and other people. During this time I made a lot of differents taks and projects, from games likes the ones you can see on this pages to serious games using the old Oculus DevKit. I also took care of the accounting and bureaucracy of the company. The company was not a sucess but the skills I developed during the time I was managing the company are priceless."
+ptech = "Estudio de videojuegos indie"
+ptext = "No Wand Studios fue la compañía que fundé junto a Johnny y otras personas. Durante este periodo desarrollé muchas tareas y proyectos diferentes, desde los juegos que puedes encontrar en esta página, a serious games que utilizaban el antiguo DevKit de Oculus VR. También me encargué de las labores de contabilidad y burocracia de la empresa. El proyecto no fue un éxito pero las habilidades que desarrollé durante el tiempo que dirigía la empresa no tienen precio."
 ptag = "other"
 pimg = "/images/other/nws/0_EGXLondon.jpg"
 pimgs = [
     "/images/other/nws/0_EGXLondon.jpg",
-    "/images/other/nws/1_Gamelab2015_1.jpg",
+    "/images/other/nws/1_EGX_Suda51.jpg",
     "/images/other/nws/2_Gamelab2015_2.jpg",
     "/images/other/nws/3_cerbuna.jpg",
     "/images/other/nws/4_millagame.jpg"

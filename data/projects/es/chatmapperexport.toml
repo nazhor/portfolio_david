@@ -10,8 +10,8 @@
 #SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
 #ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
 #WebLink:  URL without the https
-pname = "Chatmapper CSV custom export"
-ptech = "Tecnología: C#"
+pname = "Chatmapper custom export"
+ptech = "Tecnología: C# (old version), Qt + C++ (new version)"
 ptext = "Para desarrollar el sistema de diálogos de Hello, My Name Is Nobody usamos como base Chatmapper, pero a la hora de trasladar esos datos a Unreal tuve que crear esta herramienta intermedia que además de exportar a CSV realizara una serie de validaciones para comprobar que diálogo era correcto (por ejemplo, comprobar que no hay nodos sin destino)."
 ptag = "software"
 pimg = "/images/software/0_chatmapperexport.jpg"

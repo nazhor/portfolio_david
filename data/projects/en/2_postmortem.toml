@@ -1,0 +1,24 @@
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GithubRepo1: Repo url. user/repo_url
+#GithubRepo2: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "This is not another postmortem & Cave Mode"
+ptech = "A postmortem and a documentary about The Fall of Lazarus and No Wand Studios"
+ptext = "The Fall of Lazarus wasn't a comercial success, quite the contrary. Some time after launch, Johnny told me that he wanted to write a report telling all about the development of The Fall of Lazarus and our company (yes, everything, including the most difficult parts). The postmortem made a lot of noise in the Spanish developer community. It was published in GameReport(Spanish) and Gamedeveloper/Gamasutra(English). Later on, one of the readers filmed a documentary telling the very same story and that's Cave Mode."
+ptag = "other"
+pimg = "/images/other/postmortem/0_postmortem_gr.jpg"
+pimgs = [
+    "/images/other/postmortem/0_postmortem_gr.jpg",
+    "/images/other/postmortem/1_postmortem_gm.jpg",
+    "/images/other/postmortem/2_cavemode.jpg"
+]
+WebLink = "gamedeveloper.com/business/this-is-not-another-postmortem"
+YoutubeVideo = "f79wMqEYNpE"

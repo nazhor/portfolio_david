@@ -1,0 +1,25 @@
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GithubRepo1: Repo url. user/repo_url
+#GithubRepo2: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "Time Heals (Almost) Everything"
+ptech = "Techonology: Unreal Engine 4"
+ptext = "Time Heals (Almost) Everything is a prototype developed by Johnny and me. It's the project we're currently working on. The game combines a 2D resource and time management level with a 3D city parkour level."
+ptag = "games"
+pimg = "/images/games/thae/0_thae_1.jpg"
+pimgs = [
+    "/images/games/thae/0_thae_1.jpg",
+    "/images/games/thae/1_thae_2.jpg",
+    "/images/games/thae/2_thae_3.jpg",
+    "/images/games/thae/3_thae_4.jpg",
+    "/images/games/thae/4_thae_5.jpg"
+]
+ItchioGame = "thebrodevhood.itch.io/time-heals-almost-everything"

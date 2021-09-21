@@ -1,0 +1,19 @@
+#pname: Name of the project
+#ptech: Tech used
+#ptext: Description
+#ptag: games, software, other
+#pimg: First image to be displayed
+#pimgs: Array of images for the slider. You have to include also the first image.
+#GithubRepo1: Repo url. user/repo_url
+#GithubRepo2: Repo url. user/repo_url
+#YoutubeVideo: Video ID. Ej: 8ZLG-KmuMwM
+#SteamGame: Steam url. Ej: 622010/The_Fall_of_Lazarus/
+#ItchioGame: Itch.io url. Ej: no-wand-studios.itch.io/the-fall-of-lazarus
+#WebLink:  URL without the https
+pname = "The Brodevhood"
+ptech = "A pesar de todo, seguimos haciendo juegos."
+ptext = "Después de cerrar No Wand Studios, seguimos queriendo hacer juegos. Por esa razón creamos The Brodevhood como nueva marca, actualmente no es una empresa pero quiza en el futuro lo sea."
+ptag = "other"
+pimg = "/images/other/brodevhood/itchio.jpg"
+ItchioGame = "thebrodevhood.itch.io"
+
