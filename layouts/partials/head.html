@@ -5,9 +5,11 @@
 <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}" />
 <meta name="author" content="{{ with .Site.Params.author }}{{ . }}{{ end }}" />
 <link rel="icon" href="{{ .Site.BaseURL }}images/favicon.ico" />
-<!-- <meta property='og:title' content='Title of the article'/> -->
+<meta property="og:title" content="{{ with .Site.Params.description }}{{ . }}{{ end }}" />
 <meta property='og:image' content="{{ .Site.BaseURL }}images/og.jpg"/>
 <meta property='og:description' content="{{ with .Site.Params.description }}{{ . }}{{ end }}" />
+<meta property="og:url" content="https://davidbernad.com" />
+
 {{ hugo.Generator }}
 
 <!-- Pure.css -->
