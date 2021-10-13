@@ -16,3 +16,4 @@ ptext = "Para desarrollar el sistema de diálogos de Hello, My Name Is Nobody us
 ptag = "software"
 pimg = "/images/software/0_chatmapperexport.jpg"
 GithubRepo1 = "nazhor/XML_to_CSV"
+GithubRepo2 = "nazhor/CapazoEngineDialogueTool"
