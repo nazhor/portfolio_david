@@ -12,7 +12,7 @@
 #WebLink:  URL without the https
 pname = "Time Heals (Almost) Everything"
 ptech = "Tecnología: Unreal Engine 4"
-ptext = "Time Heals (Almost) Everything es un prototipo desarrollado por Johnny y por mí. Es el proyecto en el que estamos trabajando actualmente. Combina una fase de gestión de tiempo/recursos en 2D con otra de parkour en una ciudad en 3D."
+ptext = "Time Heals (Almost) Everything es un prototipo desarrollado por Johnny y por mí para una Game Jam que luego mejoramos. Nos gustaría convertirlo en un juego completo algún día. Combina una fase de gestión de tiempo/recursos en 2D con otra de parkour en una ciudad en 3D."
 ptag = "games"
 pimg = "/images/games/thae/0_thae_1.jpg"
 pimgs = [
